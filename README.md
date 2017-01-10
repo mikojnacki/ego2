@@ -2,7 +2,7 @@
 
 Open terminal in working directory.
 
-Install required packages `$ pip install -r requirements.txt` if nessesary.
+Install required packages `$ pip install -r requirements.txt` if necessary.
 
 Run `$ python ego2.py`.
 
