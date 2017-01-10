@@ -1,6 +1,6 @@
 ## How to run
 
-Open a terminal in a working directory.
+Open a terminal in the correct directory.
 
 Install required packages `$ pip install -r requirements.txt` if necessary.
 
