@@ -2,11 +2,11 @@
 
 Open terminal in working directory.
 
-If nessesery, install required packages `$ pip install -r requirements.txt`
+Install required packages `$ pip install -r requirements.txt` if nessesary.
 
-Run `$ python ego2.py`
+Run `$ python ego2.py`.
 
-Open web browser with URL http://127.0.0.1:5000/
+Go to web browser and open URL: http://127.0.0.1:5000/
 
 ## Requirements
 
