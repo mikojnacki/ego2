@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+<h2>Wyniki wyszukiwania dla: {{ query }}</h2>
+<form action="{{ url_for('get_person') }}" method="post" class="get-person">
+ <dl>
+  <dt>Numer wybranej osoby:
+  <dt><input type="text" size="1" name="person_no">
+  <input type="submit" value="Wybierz">
+ </dl>
+</form>
+<ul class="people">
+    <table style="width:100%">
+        <tr>
+            <th>Numer</th>
+            <th>Imię i nazwisko</th>
+            <th>Data urodzenia</th>
+        </tr>
+  {% for person in people %}
+        <tr>
+            <td>{{ person.no }}</td>
+            <td>{{ person.name }}</td>
+            <td>{{ person.date_of_birth }}</td>
+        </tr>
+  {% else %}
+    <li><em>Brak wyników wyszukiwania</em></li>
+  {% endfor %}
+    </table>
+</ul>
+{% endblock %}
