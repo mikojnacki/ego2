@@ -32,7 +32,7 @@ def show_list():
 
 @app.route('/get_person', methods=['POST'])
 def get_person():
-    person_no = request.form['person_no']
+    person_no = request.form['user_id']
     return redirect(url_for('draw_graph', person_no=person_no))
 
 
@@ -41,6 +41,7 @@ def draw_graph():
     global _people
     person_no = int(request.args['person_no'])
     nxego.create_graph(person_no, _people) # all NetworkX logic here
+    print("dwa")
     return redirect(url_for('static', filename='ego.html'))
 
 
