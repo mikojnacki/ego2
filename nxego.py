@@ -72,5 +72,5 @@ def create_graph(person_no, people):
 
     # dump G graph to JSON file
     d = json_graph.node_link_data(G)
-    json.dump(d, open(os.getcwd()+'/static/ego.json', 'w'))
+    json.dump(d, open(os.getcwd()+'/static/ego.json', 'w'), indent=4, separators=(',', ': '))
 
