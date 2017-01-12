@@ -41,7 +41,6 @@ def draw_graph():
     global _people
     person_no = int(request.args['person_no'])
     nxego.create_graph(person_no, _people) # all NetworkX logic here
-    print("dwa")
     return redirect(url_for('static', filename='ego.html'))
 
 
