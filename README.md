@@ -12,4 +12,4 @@ Go to the web browser and open an URL: http://127.0.0.1:5000/
 
 * GNU/Linux
 * Python 3.x
-* Python modules: networkx, flask, requests, json
+* Python modules: networkx, flask, requests, json, webbrowser
