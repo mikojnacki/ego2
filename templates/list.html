@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 {% block body %}
-<h2>Wyniki wyszukiwania dla: {{ query }}</h2>
+<h2>Wyniki wyszukiwania dla:   {{ query }}</h2>
+<form action="{{ url_for('index') }}">
+    <input type="submit" value="Nowe zapytanie"/>
+</form>
 <form action="{{ url_for('get_person') }}" method="post" class="get-person">
  <ul class="people">
     <table style="width:100%">
@@ -18,9 +21,10 @@
             <td><button type="submit" name="user_id" value={{ person.no }}>Wyszukaj</td>
         </tr>
   {% else %}
-    <li><em>Brak wyników wyszukiwania</em></li>
+        <tr><td colspan="4">Brak wyników wyszukiwania</td></tr>
   {% endfor %}
     </table>
 </ul>
 {% endblock %}
 </form>
+

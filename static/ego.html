@@ -1,18 +1,26 @@
 <!doctype html>
-<html>
 <title>ego2</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <head>
-<script type="text/javascript" src="http://d3js.org/d3.v2.js"></script>
 <style type="text/css">
     h1, h2 { font-family: 'Georgia', serif; text-align: center; color: #377BA8; line-height: 150%; }
     h1 { border-bottom: 2px solid #eee; }
     .link { stroke: #ccc; }
     .nodetext { pointer-events: none; font: 10px sans-serif; }
+    .page2 { margin: 2em auto; width: 40em; border: 5px solid #ccc;
+             padding: 0.8em; background: white; }
 </style>
+    <script type="text/javascript" src="http://d3js.org/d3.v2.js"></script>
 </head>
 <body>
+<div class="page2">
 <h1>ego2</h1>
-<h2>Graf ego</h2>
+<h2>
+<form action="http://127.0.0.1:5000/">
+    <input type="submit" value="Nowe zapytanie"/>
+</form>
+</h2>
 <script type="text/javascript">
 
 var w = 1280,
@@ -123,4 +131,4 @@ d3.json("ego.json", function(json) {
 
 </script>
 </body>
-</html>
+</div>
