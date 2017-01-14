@@ -3,6 +3,7 @@ Flask app module - server logic
 """
 
 import sys
+import webbrowser
 from flask import Flask, request, redirect, url_for, render_template, send_from_directory
 import nxego
 
@@ -46,6 +47,7 @@ def draw_graph():
 
 def main():
     global _people # global variable that stores nxego.search_people(query)
+    webbrowser.open('http://127.0.0.1:5000/')
     app.run()
 
 if __name__ == '__main__':
