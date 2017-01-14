@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4066e48-eda0-4800-bd12-65f497636b34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/ego.html" afterPath="$PROJECT_DIR$/static/ego.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/ego.json" afterPath="$PROJECT_DIR$/static/ego.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ego2$ego2.coverage" NAME="ego2 Coverage Results" MODIFIED="1484424019808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ego2$ego2.coverage" NAME="ego2 Coverage Results" MODIFIED="1484424474565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ego.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ego.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/ego.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="475">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -69,20 +68,20 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#table#0;n#ul#0;n#form#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#ul#0;n#form#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +113,8 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/nxego.py" />
         <option value="$PROJECT_DIR$/ego2.py" />
-        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/static/ego.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/templates/list.html" />
       </list>
     </option>
@@ -460,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484419416091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add buttons for new queries, minor CSS changes">
+      <created>1484424195326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484424195326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -504,7 +510,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add webbrowser module - open webbrowser automatically" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webbrowser module - open webbrowser automatically" />
+    <MESSAGE value="Add buttons for new queries, minor CSS changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add buttons for new queries, minor CSS changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -526,7 +533,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#ul#0;n#form#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#ul#0;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,7 +560,7 @@
         <state relative-caret-position="190">
           <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#ul#0;n#form#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#ul#0;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,24 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#ul#0;n#form#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ego2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -646,9 +635,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/ego.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#ul#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
