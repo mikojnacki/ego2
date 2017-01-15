@@ -1,11 +1,13 @@
 {% extends "layout.html" %}
 {% block body %}
-<h1>
+<h2>
     <form action="{{ url_for('index') }}">
     <input type="submit" value="Nowe zapytanie"/>
     </form>
-</h1>
+</h2>
+<br>
 <h2>Wyniki wyszukiwania dla:   {{ query }}</h2>
+<br>
 <form action="{{ url_for('get_person') }}" method="post" class="get-person">
  <ul class="people">
     <table style="width:100%">
