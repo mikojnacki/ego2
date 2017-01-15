@@ -113,11 +113,21 @@ def get_related_people_from_ego(person_id, ego_name, ego_id):
 
 
 def match_names(ego_name, person_name):
-    if ego_name == person_name:
+    if (ego_name == person_name or has_similar_names(ego_name, person_name) or
+        name_contains(ego_name, person_name) or name_contains(person_name, ego_name)):
         return True
     else:
         return False
 
+
+def has_similar_names(a, b):
+    return a[:-1] == b[:-1]
+
+def name_contains(name, other_name):
+    if name[:-1].endswith(other_name[:-1]):
+        return True
+    else:
+        return False
 
 def add_relatives_to_graph(relatives, person, graph):
 
@@ -149,10 +159,10 @@ def add_relatives_to_graph(relatives, person, graph):
                 graph.add_edge(person_graph_id, relative['id'], relation='MOŻLIWY RODZIC')
 
 
-def get_age_difference(birthdate1, birthdate2):
+def get_age_difference(birthdate_1, birthdate_2):
 
-    year1 = extract_birth_year(birthdate1)
-    year2 = extract_birth_year(birthdate2)
+    year1 = extract_birth_year(birthdate_1)
+    year2 = extract_birth_year(birthdate_2)
 
     return year1 - year2
 
